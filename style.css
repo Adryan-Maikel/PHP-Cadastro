@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body{
+    background-image: url(../Cadastro/fundo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.topo{
+    display: none;
+}
+section{
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 450px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px;
+}
+.sessao{
+    color: white;
+}
+h2{
+    color: white;
+}
+.input{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+input:focus{
+    color: white;
+    box-shadow: 0px 0px 3px 3px rgb(0, 100, 231);
+    background-color: rgba(0, 100, 231);
+}
+input:focus::placeholder{
+    color: white;
+}
+.btn{
+    margin-top: 15px;
+    border-radius: 10px;
+}
+span{
+    color: red;
+}
